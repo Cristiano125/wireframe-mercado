@@ -67,3 +67,8 @@ Este projeto apresenta um wireframe de **média fidelidade** para uma loja de me
 
 ## Licença
 Este projeto é livre para uso **educacional** e **prototipagem**. Sinta-se à vontade para adaptar e evoluir conforme suas necessidades.
+
+---
+
+## Observação
+> Este projeto foi elaborado com aplicação de conceito e conhecimento adquirido com o curso de IA, para maior agilidade no desenvolvimento.
