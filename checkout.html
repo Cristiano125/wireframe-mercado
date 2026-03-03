@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Mercado Online - Checkout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">LOGO</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Buscar produtos...">
+    </div>
+    <div class="header-icons">
+      <a href="#">Minha Conta</a>
+      <a href="cart.html">Carrinho</a>
+    </div>
+  </header>
+
+  <main class="checkout-page">
+    <h1>Checkout</h1>
+
+    <section class="checkout-layout">
+      <section class="checkout-forms">
+        <div className="checkout-section">
+          <h2>Endereço de entrega</h2>
+          <form>
+            <label>Nome completo</label>
+            <input type="text">
+
+            <label>Endereço</label>
+            <input type="text">
+
+            <label>Cidade</label>
+            <input type="text">
+
+            <label>CEP</label>
+            <input type="text">
+          </form>
+        </div>
+
+        <div className="checkout-section">
+          <h2>Pagamento</h2>
+          <form>
+            <label>Número do cartão</label>
+            <input type="text">
+
+            <label>Nome no cartão</label>
+            <input type="text">
+
+            <label>Validade</label>
+            <input type="text">
+
+            <label>CVV</label>
+            <input type="password">
+          </form>
+        </div>
+      </section>
+
+      <aside class="order-summary">
+        <h2>Resumo do pedido</h2>
+        <ul>
+          <li>Maçã Gala 1kg — R$ 9,90</li>
+          <li>Banana Nanica 1kg — R$ 15,00</li>
+        </ul>
+        <p><strong>Total:</strong> R$ 24,90</p>
+        <button class="btn">Concluir pedido</button>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <h4>© 2026 Mercado Online</h4>
+    </div>
+  </footer>
+</body>
+</html>

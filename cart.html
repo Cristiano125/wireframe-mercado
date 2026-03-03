@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Mercado Online - Carrinho</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">LOGO</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Buscar produtos...">
+    </div>
+    <div class="header-icons">
+      <a href="#">Minha Conta</a>
+      <a href="cart.html">Carrinho</a>
+    </div>
+  </header>
+
+  <main class="cart-page">
+    <h1>Carrinho de Compras</h1>
+
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Quantidade</th>
+          <th>Preço</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="cart-product">
+            <div class="cart-product-image">Img</div>
+            <div>
+              <strong>Maçã Gala 1kg</strong><br>
+              Hortifruti
+            </div>
+          </td>
+          <td class="cart-qty">
+            <button>-</button>
+            <span>1</span>
+            <button>+</button>
+          </td>
+          <td>R$ 9,90</td>
+        </tr>
+        <tr>
+          <td class="cart-product">
+            <div class="cart-product-image">Img</div>
+            <div>
+              <strong>Banana Nanica 1kg</strong><br>
+              Hortifruti
+            </div>
+          </td>
+          <td class="cart-qty">
+            <button>-</button>
+            <span>2</span>
+            <button>+</button>
+          </td>
+          <td>R$ 15,00</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="cart-summary">
+      <p><strong>Total:</strong> R$ 24,90</p>
+      <a href="checkout.html" class="btn">Finalizar compra</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <h4>© 2026 Mercado Online</h4>
+    </div>
+  </footer>
+</body>
+</html>
